@@ -117,8 +117,8 @@ CREATE TABLE IF NOT EXISTS `wp_options` (
 --
 
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
-(1, 'siteurl', 'http://localhost:81/wordpress', 'yes'),
-(2, 'home', 'http://localhost:81/wordpress', 'yes'),
+(1, 'siteurl', 'http://localhost:81/wordpress/cms_g_12017/', 'yes'),
+(2, 'home', 'http://localhost:81/wordpress/cms_g_12017/', 'yes'),
 (3, 'blogname', 'Trung Thong Blog', 'yes'),
 (4, 'blogdescription', 'Một trang web mới sử dụng WordPress', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
