@@ -50,6 +50,9 @@ class WP_Widget_Categories extends WP_Widget {
 		$c = ! empty( $instance['count'] ) ? '1' : '0';
 		$h = ! empty( $instance['hierarchical'] ) ? '1' : '0';
 		$d = ! empty( $instance['dropdown'] ) ? '1' : '0';
+                $number = ( ! empty( $instance['number'] ) ) ? absint( $instance['number'] ) : 5;
+		if ( ! $number )
+			$number = 5;
 
 		echo $args['before_widget'];
 		if ( $title ) {
@@ -59,7 +62,8 @@ class WP_Widget_Categories extends WP_Widget {
 		$cat_args = array(
 			'orderby'      => 'name',
 			'show_count'   => $c,
-			'hierarchical' => $h
+			'hierarchical' => $h,
+                        'number'      => $number
 		);
 
 		if ( $d ) {
@@ -137,6 +141,7 @@ class WP_Widget_Categories extends WP_Widget {
 		$instance['count'] = !empty($new_instance['count']) ? 1 : 0;
 		$instance['hierarchical'] = !empty($new_instance['hierarchical']) ? 1 : 0;
 		$instance['dropdown'] = !empty($new_instance['dropdown']) ? 1 : 0;
+                $instance['number'] = (int) $new_instance['number'];
 
 		return $instance;
 	}
@@ -156,9 +161,13 @@ class WP_Widget_Categories extends WP_Widget {
 		$count = isset($instance['count']) ? (bool) $instance['count'] :false;
 		$hierarchical = isset( $instance['hierarchical'] ) ? (bool) $instance['hierarchical'] : false;
 		$dropdown = isset( $instance['dropdown'] ) ? (bool) $instance['dropdown'] : false;
+                $number    = isset( $instance['number'] ) ? absint( $instance['number'] ) : 5;
 		?>
 		<p><label for="<?php echo $this->get_field_id('title'); ?>"><?php _e( 'Title:' ); ?></label>
 		<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" /></p>
+                
+                <p><label for="<?php echo $this->get_field_id( 'number' ); ?>"><?php _e( 'Number of posts to show:' ); ?></label>
+		<input class="tiny-text" id="<?php echo $this->get_field_id( 'number' ); ?>" name="<?php echo $this->get_field_name( 'number' ); ?>" type="number" step="1" min="1" value="<?php echo $number; ?>" size="3" /></p>
 
 		<p><input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id('dropdown'); ?>" name="<?php echo $this->get_field_name('dropdown'); ?>"<?php checked( $dropdown ); ?> />
 		<label for="<?php echo $this->get_field_id('dropdown'); ?>"><?php _e( 'Display as dropdown' ); ?></label><br />
