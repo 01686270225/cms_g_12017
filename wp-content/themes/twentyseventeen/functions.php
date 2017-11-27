@@ -12,6 +12,7 @@
 /**
  * Twenty Seventeen only works in WordPress 4.7 or later.
  */
+
 if ( version_compare( $GLOBALS['wp_version'], '4.7-alpha', '<' ) ) {
 	require get_template_directory() . '/inc/back-compat.php';
 	return;
@@ -254,7 +255,20 @@ function twentyseventeen_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'twentyseventeen_content_width', $content_width );
 }
 add_action( 'template_redirect', 'twentyseventeen_content_width', 0 );
-
+function stheme_add_boostrap() {
+    wp_register_style('css', get_template_directory_uri() . '/assets/css/843.css');
+    wp_enqueue_style('css');
+    wp_register_style('bootstrap-style', get_template_directory_uri() . '/assets/css/bootstrap-3-6-7.min.css');
+    wp_enqueue_style('bootstrap-style');
+    
+     wp_register_style("fonts", get_template_directory_uri() . '/assets/css/font-awesome.min.css');
+    wp_enqueue_style('fonts');
+    wp_register_script('bootstrap', get_template_directory_uri() . '/assets/js/bootstrap-3-6-7.min.js', array(), false, true);
+    wp_enqueue_script('bootstrap');
+     wp_register_script('jquery', get_template_directory_uri() . '/assets/js/jquery-2.min.js', array(), false, true);
+    wp_enqueue_script('jquery');
+}
+add_action('wp_enqueue_scripts', 'stheme_add_boostrap');
 /**
  * Register custom fonts.
  */
