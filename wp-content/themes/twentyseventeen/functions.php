@@ -255,6 +255,7 @@ function twentyseventeen_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'twentyseventeen_content_width', $content_width );
 }
 add_action( 'template_redirect', 'twentyseventeen_content_width', 0 );
+
 function stheme_add_boostrap() {
     wp_register_style('css', get_template_directory_uri() . '/assets/css/843.css');
     wp_enqueue_style('css');
@@ -268,6 +269,7 @@ function stheme_add_boostrap() {
      wp_register_script('jquery', get_template_directory_uri() . '/assets/js/jquery-2.min.js', array(), false, true);
     wp_enqueue_script('jquery');
 }
+
 add_action('wp_enqueue_scripts', 'stheme_add_boostrap');
 /**
  * Register custom fonts.

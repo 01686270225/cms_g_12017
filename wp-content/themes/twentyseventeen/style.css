@@ -52,14 +52,18 @@ Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 --------------------------------------------------------------*/
 
 html {
-	font-family: sans-serif;
-	line-height: 1.15;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+	font-family: sans-serif !important;
+	line-height: 1.15 !important;
+	-ms-text-size-adjust: 100% !important;
+	-webkit-text-size-adjust: 100% !important;
 }
 
 body {
 	margin: 0;
+        font-family: sans-serif !important;
+	line-height: 1.15 !important;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
 }
 
 article,

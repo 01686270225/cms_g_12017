@@ -25,6 +25,8 @@
 				'before' => '<div class="page-links">' . __( 'Pages:', 'twentyseventeen' ),
 				'after'  => '</div>',
 			) );
+                        var_dump(13456);
+                        die();
 		?>
 	</div><!-- .entry-content -->
 </article><!-- #post-## -->
