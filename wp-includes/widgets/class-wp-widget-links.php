@@ -66,6 +66,7 @@ class WP_Widget_Links extends WP_Widget {
 			'orderby'          => $orderby,
 			'order'            => $order,
 			'limit'            => $limit,
+			
 		);
 
 		/**

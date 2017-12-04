@@ -1037,9 +1037,8 @@ function get_term_to_edit( $id, $taxonomy ) {
  * @return array|int|WP_Error List of WP_Term instances and their children. Will return WP_Error, if any of $taxonomies
  *                            do not exist.
  */
-function get_terms( $args = array(), $deprecated = '' ) {
+function get_terms( $args = array(), $deprecated = '') {
 	global $wpdb;
-
 	$term_query = new WP_Term_Query();
 
 	$defaults = array(
