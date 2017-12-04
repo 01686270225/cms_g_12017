@@ -12,12 +12,14 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> style="width:45%; float:left; padding:0 10px 0 0;">
+
+<?php
 	if ( is_sticky() && is_home() ) :
 		echo twentyseventeen_get_svg( array( 'icon' => 'thumb-tack' ) );
 	endif;
 	?>
+
 	<header class="entry-header">
 		<?php
 		if ( 'post' === get_post_type() ) {
@@ -38,7 +40,6 @@
 		} else {
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		}
-                
 		?>
 	</header><!-- .entry-header -->
 
@@ -48,10 +49,10 @@
 				<?php the_post_thumbnail( 'twentyseventeen-featured-image' ); ?>
 			</a>
 		</div><!-- .post-thumbnail -->
-	<?php endif;  ?>
+	<?php endif; ?>
 
 	<div class="entry-content">
-		<?php 
+		<?php
 		/* translators: %s: Name of current post */
 		the_content( sprintf(
 			__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'twentyseventeen' ),
@@ -69,8 +70,9 @@
 
 	<?php
 	if ( is_single() ) {
-		twentyseventeen_entry_footer(); 
-	} 
+		twentyseventeen_entry_footer();
+	}
 	?>
+	
 
 </article><!-- #post-## -->

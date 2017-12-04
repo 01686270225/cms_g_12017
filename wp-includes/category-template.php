@@ -338,6 +338,7 @@ function wp_dropdown_categories( $args = '' ) {
 		'option_none_value' => -1,
 		'value_field'       => 'term_id',
 		'required'          => false,
+		
 	);
 
 	$defaults['selected'] = ( is_category() ) ? get_query_var( 'cat' ) : 0;
@@ -426,7 +427,7 @@ function wp_dropdown_categories( $args = '' ) {
 		} else {
 			$depth = -1; // Flat.
 		}
-		$output .= walk_category_dropdown_tree( $categories, $depth, $r );
+		$output .= walk_category_dropdown_tree( $cacategories, $depth, $r );
 	}
 
 	if ( ! $r['hide_if_empty'] || ! empty( $categories ) ) {
@@ -523,7 +524,9 @@ function wp_list_categories( $args = '' ) {
 		'taxonomy'            => 'category',
 		'title_li'            => __( 'Categories' ),
 		'use_desc_for_title'  => 1,
+                'number'              => 100, 
 	);
+         
 
 	$r = wp_parse_args( $args, $defaults );
 
@@ -557,7 +560,7 @@ function wp_list_categories( $args = '' ) {
 	$show_option_none = $r['show_option_none'];
 
 	$categories = get_categories( $r );
-
+        
 	$output = '';
 	if ( $r['title_li'] && 'list' == $r['style'] && ( ! empty( $categories ) || ! $r['hide_title_if_empty'] ) ) {
 		$output = '<li class="' . esc_attr( $r['class'] ) . '">' . $r['title_li'] . '<ul>';
@@ -1034,6 +1037,26 @@ function walk_category_tree() {
 	} else {
 		$walker = $args[2]['walker'];
 	}
+
+	$categories = [];
+	foreach ($args[0] as $category) {
+		if(count($categories) < 3 && $category->parent == 0){
+			$categories[] = $category;
+		}
+	}
+
+	$sub_cate = [];
+	foreach ($categories as $parent) {
+		$index = 0;
+		foreach ($args[0] as $category) {
+			if($index < 3 && $parent->terms_id == $category->parent){
+				$index++;
+				$sub_cate[] = $category;
+			}			
+		}
+	}
+	$categories = array_merge($categories,$sub_cate);
+	$args[0] = $categories;
 	return call_user_func_array( array( $walker, 'walk' ), $args );
 }
 

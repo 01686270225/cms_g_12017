@@ -3310,8 +3310,9 @@ object {
     input,
     select,
     textarea {
-        font-size: 16px !important;
-        line-height: 1.5 !important;
+        font-size: 16px;
+        font-size: 1rem;
+        line-height: 1.5;
     }
 
     .entry-content blockquote.alignleft,
