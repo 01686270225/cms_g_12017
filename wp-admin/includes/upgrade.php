@@ -249,7 +249,6 @@ As a new WordPress user, you should go to <a href=\"%s\">your dashboard</a> to d
 		'to_ping' => '',
 		'pinged' => '',
 		'post_content_filtered' => ''
-                
 	));
 	$wpdb->insert( $wpdb->postmeta, array( 'post_id' => 2, 'meta_key' => '_wp_page_template', 'meta_value' => 'default' ) );
 
