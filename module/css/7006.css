@@ -1,0 +1,329 @@
+.type-7006 {
+    margin-top: 50px;
+    font: normal 16px/24px Varela Round;
+    clear: both;
+}
+.type-7006 .swiper-container {
+    height: 194px !important;
+    margin: 0 auto;
+    position: relative;
+    width: 250px;
+    border-radius: 8px;
+}
+.type-7006 .swiper-slide {
+    text-align: center;
+    background: #fff;
+    justify-content: center;
+    width: 250px;
+    overflow: hidden;
+    height: 194px;
+}
+.type-7006 .swiper-slide img {
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 0.3s;
+}
+.type-7006 .swiper-slide img:hover {
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+.type-7006 .active .addtocart:hover {
+    opacity: 1;
+    color: #ffffff;
+    text-decoration: none;
+}
+.type-7006 .active .addtocart {
+    text-align: center;
+    opacity: 0.3;
+    margin-top: -40px;
+    position: relative;
+    z-index: 9;
+}
+.type-7006 .active .addtocart a {
+    opacity: 1;
+    background: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    text-decoration: none;
+    padding: 3px 10px;
+    border-radius: 50px;
+    transition: 0.1s;
+}
+.type-7006 .active .home-chef {
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    float: none;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville';
+    line-height: 1.3em;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #2c2c2c;
+    margin-top: 17px;
+}
+.type-7006 .active .home-chef .tagged {
+    margin: 0;
+    display: block;
+    padding: 0px 5px;
+}
+.type-7006 .active .home-chef .tagged a:hover {
+    color: #cb7152;
+    opacity: 1;
+}
+.type-7006 .active .home-chef .tagged a {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #6b6b6b;
+    line-height: 1em;
+    font-weight: normal;
+    opacity: 0.5;
+    transition: all .3s;
+}
+.type-7006 .active .home-chef .tagged a:after {
+    content: "\00B7";
+    font-size: 14px;
+    color: #6b6b6b;
+    padding-left: 5px;
+}
+.type-7006 .active .home-chef .tagged h3 {
+    margin-top: 3px;
+    font-size: 16px;
+    color: #000000;
+    padding-bottom: .1em;
+    transition: color .3s;
+}
+.type-7006 .active .home-chef .tagged h3:hover {
+    color: #cb7152;
+}
+.type-7006 .active .home-chef .tagged p {
+    display: block;
+    color: #000;
+    transform: translateZ(0);
+    margin: 0px;
+    font: normal 16px/18px Libre Baskerville;
+    font-size: .857em;
+    font-weight: 400;
+}
+.type-7006 .anhcafe {
+    margin-left: -100px;
+}
+.type-7006 .M6-grid-1-2 p .icon {
+    color: #cb7152;
+    font-size: 80px !important;
+    font-family: 'theme' !important;
+}
+.type-7006 .M6-grid-1-2 h2 {
+    color: #000;
+    font: normal 56px/68px Libre Baskerville;
+    padding-bottom: 20px;
+    margin-left: -50px;
+}
+.type-7006 .M6-grid-1-2 p {
+    font: normal 16px/24px Varela Round;
+    font-size: 19px;
+    margin-left: -50px;
+}
+.type-7006 .swiper-button-next.swiper-button-disabled,
+.type-7006 .swiper-button-prev.swiper-button-disabled {
+    opacity: .2;
+    cursor: auto;
+    pointer-events: none;
+    font-size: 18px;
+}
+.type-7006 .swiper-button-next,
+.type-7006 .swiper-button-prev {
+    background-size: 16px 44px;
+    transition: all 0.5s;
+}
+.type-7006 .swiper-button-prev {
+    left: 0px;
+    display: block;
+    top: 100px;
+    position: absolute;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 0 15px;
+    opacity: .5;
+}
+.type-7006 .swiper-button-prev:hover {
+    color: #000;
+    border-radius: 60%;
+    width: 50px;
+    transition: all .5s;
+    box-shadow: -1px 2px 4px 0px rgba(0,0,0,0.1);
+    opacity: 1;
+}
+.type-7006 .swiper-button-next {
+    right: 0px;
+    display: block;
+    top: 100px;
+    position: absolute;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 0 15px;
+    opacity: .5;
+}
+.type-7006 .swiper-button-next:hover {
+    color: #000;
+    border-radius: 60%;
+    width: 50px;
+    transition: all .5s;
+    box-shadow: -1px 2px 4px 0px rgba(0,0,0,0.1);
+    opacity: 1;
+}
+.type-7006 .M7 {
+    float: none !important;
+    padding-top: 40px;
+    float: left;
+}
+.type-7006 .M7 #quote-carousel {
+    padding: 0;
+    margin: 30px auto 0px;
+}
+.type-7006 .M7 .carousel-inner {
+    max-height: 350px;
+}
+.type-7006 .M7 #quote-carousel .carousel-control {
+    background: none;
+    color: #222;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 90px;
+}
+.type-7006 .M7 #quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+    padding-top: 20px;
+}
+.type-7006 .M7 #quote-carousel .carousel-indicators li {
+    background: #c0c0c0;
+}
+.type-7006 .M7 #quote-carousel .carousel-indicators .active {
+    background: #333333;
+}
+.type-7006 .M7 #quote-carousel img {
+    width: 250px;
+    border-radius: 8px;
+}
+.type-7006 .M7 .item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.type-7006 .M7 .item blockquote img {
+    margin-bottom: 10px;
+}
+.type-7006 .M7 .item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+.type-7006 .M7 h5 {
+    position: relative;
+    float: none;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville';
+    line-height: 1.3em;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #2c2c2c;
+    margin-top: -5px;
+    padding-top: 10px;
+}
+.type-7006 .M7 .carousel-inner a:hover {
+    color: #ec971f;
+}
+.type-7006 .M7 .carousel-inner .tagged_as {
+    margin: 0;
+    display: block;
+    padding: 0px 5px;
+    line-height: 1em;
+}
+.type-7006 .M7 .carousel-inner .tagged_as a {
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #6b6b6b;
+    text-decoration: none;
+}
+.type-7006 .M7 .carousel-inner .tagged_as a:hover {
+    color: #cb7152;
+    opacity: 1;
+}
+.type-7006 .M7 .carousel-inner a {
+    text-decoration: none;
+}
+.type-7006 .M7 .carousel-inner a h3 {
+    color: #000;
+    font-size: 18px;
+    padding-bottom: .1em;
+    line-height: 1.4em;
+    padding: .3em 1.0em;
+    transition: all .6s;
+    text-align: center;
+}
+.type-7006 .M7 .carousel-inner .price {
+    color: #000000;
+    position: relative;
+    transform: translateZ(0);
+    margin: 0px;
+    font-size: .857em;
+    font-weight: 400;
+    font: normal 16px/18px Varela Round;
+}
+.type-7006 .anhdau {
+    z-index: 555;
+    display: block;
+    float: none;
+    margin: auto;
+    max-width: 1260px;
+    width: auto;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.type-7006 .anhdau p img {
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    font-size: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+@font-face {
+    font-family: theme;
+    src: url(../fonts/theme);
+    font-weight: normal;
+}
+@media screen and (max-width: 990px) {
+    .Module-6 .anhcafe {
+        display: none;
+    }
+    .Module-6 .M6-grid-1-2 p .icon {
+        color: #cb7152;
+        font-family: 'theme' !important;
+    }
+    .Module-6 .M6-grid-1-2 h2 {
+        margin-left: 0px;
+    }
+    .Module-6 .M6-grid-1-2 p {
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .Module-6 .swiper-slide {
+        width: 100% !important;
+    }
+}

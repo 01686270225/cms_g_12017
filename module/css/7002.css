@@ -1,0 +1,124 @@
+.type-7002 a,
+.type-7002 a:hover {
+    text-decoration: none;
+}
+.type-7002 ul {
+    list-style: none;
+    padding: 0;
+}
+.type-7002 .m2 .m2-container {
+    margin: 0 auto;
+}
+.type-7002 .m2 .m2-container .m2-grip {
+    transition: all 1s;
+    position: relative;
+    padding: 0px 0px 40px 0px;
+    margin: 0 -3%;
+    background-color: transparent;
+}
+.type-7002 .m2 .m2-container .m2-grip .m2-grip-paralax {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.type-7002 .m2 .m2-container .m2-grip .m2-grip-paralax .m2-grip-background {
+    width: 100%;
+    height: 1200px;
+    background-position: 48% 0%;
+    background-image: url(../images/coffee-img-4-1.jpg);
+    background-color: rgba(0,0,0,0);
+    background-size: auto;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+.type-7002 .m2 .m2-container .m2-grip .m2-grip-content {
+    background-color: transparent;
+    display: block;
+    z-index: 10;
+    position: relative;
+    padding-bottom: 60px;
+}
+.type-7002 .m2 .m2-container .m2-grip .m2-grip-content p {
+    font: normal 16px/24px Varela Round;
+}
+.type-7002 .m2 .m2-container .m2-grip .m2-grip-content .m2-grip-content-1 {
+    margin-top: 230px;
+    background: url(../images/coffee-img-2.jpg) no-repeat center top;
+    background-size: auto;
+    background-attachment: scroll;
+    padding: 0 25px;
+}
+.type-7002 .m2 .m2-container .m2-grip .m2-grip-content .m2-grip-content-1 .m2-grip-content-1-left {
+    animation: element-from-left 0.7s 1 ease-out;
+    padding-left: 0;
+    padding-top: 230px;
+    padding-right: 0;
+}
+.type-7002 .m2 .m2-container .m2-grip .m2-grip-content .m2-grip-content-1 .m2-grip-content-1-left h4 {
+    font: normal 24px/32px Libre Baskerville;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+.type-7002 .m2 .m2-container .m2-grip .m2-grip-content .m2-grip-content-2 {
+    text-align: center;
+    margin-top: -100px;
+    padding: 0 25px;
+}
+.type-7002 .m2 .m2-container .m2-grip .m2-grip-content .m2-grip-content-2 img {
+    max-width: 100%;
+}
+.type-7002 .m2 .m2-container .m2-grip .m2-grip-content .m2-grip-content-2 h3,
+.type-7002 .m2 .m2-container .m2-grip .m2-grip-content .m2-grip-content-2 p {
+    text-align: center;
+    margin: 16px 0;
+}
+.type-7002 .m2 .m2-container .m2-grip .m2-grip-content .m2-grip-content-2 h3 {
+    margin: 24px 0;
+    font: normal 40px/50px Libre Baskerville;
+}
+.type-7002 .m2 .m2-container .m2-grip .m2-grip-content .m2-grip-content-3 {
+    margin-top: 200px;
+    background: url(../images/coffee-img-3.jpg) no-repeat center top;
+}
+.type-7002 .m2 .m2-container .m2-grip .m2-grip-content .m2-grip-content-3 .m2-grip-content-1-left {
+    padding-top: 240px;
+}
+.type-7002 .m2 .m2-container .m2-grip .m2-grip-content .m2-grip-content-3 .m2-grip-content-1-left h4 {
+    padding-top: 20px;
+}
+@media (max-width: 767px) {
+    .type-7002 .m2 .m2-grip-content .m2-grip-content-1 {
+        padding-top: 20px !important;
+        margin-top: 0px !important;
+        background: transparent !important;
+    }
+    .type-7002 .m2 .m2-grip-content .m2-grip-content-1 .m2-grip-content-1-left {
+        padding-top: 0 !important;
+    }
+    .type-7002 .m2 .m2-grip-content .m2-grip-content-2 {
+        margin-top: 0 !important;
+    }
+}
+@font-face {
+    font-family: Kaushan Script;
+    src: url(../fonts/Kaushan-Script.woff2);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Libre Baskerville;
+    src: url(../fonts/Libre-Baskerville.woff2);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Varela Round;
+    src: url(../fonts/Varela-Round.woff2);
+    font-weight: bold;
+}
+@font-face {
+    font-family: theme;
+    src: url(../fonts/theme-icons.ttf);
+    font-weight: bold;
+}
