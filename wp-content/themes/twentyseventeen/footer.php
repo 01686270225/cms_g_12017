@@ -13,118 +13,73 @@
  */
 ?>
 
-<div class="type-843">
-    <!-- BEGIN FOOTER -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="logo-footer col-md-3 col-sm-3 col-xs-12">
-                    <div class="logo">
-                        <img src="../wordpress/wp-content/themes/twentyseventeen/assets/images/footer-logo.png" alt=""/>
-                    </div>
-                    <div class="address">
-                        <p> 507-Union Trade Center,Udhana Darvaja Surat </p>
-                        <p> Call us: 0123-456-789</p>
-                        <p><a href="#"> support@templatemela.com</a></p>
-                    </div>
-                    <div class="link">
-                        <ul>
-                            <li><a href="#" class="fa fa-facebook-square"></a></li>
-                            <li><a href="#" class="fa fa-twitter-square"></a></li>
-                            <li><a href="#" class="fa fa-google-plus-square"></a></li>
-                            <li><a href="#" class="fa fa-pinterest-square"></a></li>
-                            <li><a href="#" class="fa fa-linkedin-square"></a></li>
-                            <li><a href="#" class="fa fa-rss-square"></a></li>
-                            <li><a href="#"class="fa fa-share-alt-square"></a></li>
-                            <li><a href="#" class="fa fa-youtube-square"></a></li>
-                        </ul>
+<div class="type-7011">
+            <footer>
+                <div class="row">
+                    <div class="m11-title-footer">
+                        <h2>Délicious</h2>
                     </div>
                 </div>
-                <!-- BEGIN COLUMNS -->
-                <div class="columns col-md-3 col-sm-3 col-xs-12">
-                    <div class="title">
-                        <h6>MY ACCOUNT</h6>
-                    </div>
-                    <div class="list">
-                        <ul>
-                            <li><a href="#">Ask In forum</a></li>
-                            <li><a href="#"> Help Desk</a></li>
-                            <li><a href="#"> Payment Method</a></li>
-                            <li><a href="#"> Promotions</a></li>
-                            <li><a href="#"> Terms & Condition</a></li>
-                            <li><a href="#"> Payment Method</a></li>
-                            <li><a href="#"> Shipping Policy</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- END COLUMNS -->
-                <!-- BEGIN COLUMNS -->
-                <div class="columns col-md-3 col-sm-3 col-xs-12">
-                    <div class="title">
-                        <h6>SHOP</h6>
-                    </div>
-                    <div class="list">
-                        <ul>
-                            <li><a href="#">Accessories</a></li>
-                            <li><a href="#">Balcony Tables</a></li>
-                            <li><a href="#">Bar Units</a></li>
-                            <li><a href="#">Fine Art</a></li>
-                            <li><a href="#">Beds</a></li>
-                            <li><a href="#">Rules</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- END COLUMNS -->
-                <!-- BEGIN COLUMNS -->
-                <div class="columns col-md-3 col-sm-3 col-xs-12">
-                    <div class="title">
-                        <h6>SELLERS</h6>
-                    </div>
-                    <div class="list">
-                        <ul>
-                            <li><a href="#">Seller Login</a></li>
-                            <li><a href="#">Seller Signup</a></li>
-                            <li><a href="#">Seller Handbook</a></li>
-                            <li><a href="#">Shipping & Refund</a></li>
-                            <li><a href="#"> Wholesale Policy</a></li>
-                        </ul>
+                <div class="clearfix"></div>
+                <div class="row">
+                    <div class="m11-col-footer">
+                        <div class="col-md-4 c1 col-sm-12">
+                            <h4>About</h4>
+                            <p style="display: block;">Osteria Francescana is a restaurant owned and run by chef Massimo Bottura in Modena, Italy</p>
+                            <p class="c1-btn">
+                                <a href="#">
+                                    <span class="span-hover">Buy this Delicious Theme</span>
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-md-4 c2 col-sm-12">
+                            <h4>Get news & offers</h4>
+                            <div class="c2-input">
+                                <input type="email" name="EMAIL" placeholder="Your email" required="">
+                                <input type="submit" value="Subscrible">
+                                <p>* We never send you spam!</p>
+                            </div>
+                            <div class="c2-icon">
+                                <a href="#">
+                                    <span class="fa fa-tripadvisor"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-pinterest"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 c3 col-sm-12">
+                            <h4>Contacts</h4>
+                            <p>Via Stella, 22<br>
+                                Modena MO, Italy<br>
+                                +390 59 223 912</p>
+                            <p><a href="#">hello@yoursite.com</a></p>
+                        </div>
                     </div>
                 </div>
-
-                <!-- END COLUMNS -->
-            </div>
+                <div class="ad">
+                    <div class="ad1">
+                        © 2016
+                        <a href="#">Delicious Restaurant & Café Theme</a>
+                        by
+                        <a href="#">VamTam Themes</a>
+                    </div>
+                    <div class="ad2">
+                        Proudly powered by 
+                        <a href="#">WordPress</a>
+                    </div>
+                </div>
+            </footer>
         </div>
-        <div class="container">
-            <div class="border-bottom">
-            </div> 
-            <div class="sub-footer">
-                <div class="menu-sub">
-                    <ul>
-                        <li><a href="#">Site Map</a></li>
-                        <li><a href="#">|</a></li>
-                        <li><a href="#">Search Terms</a></li>
-                        <li><a href="#">|</a></li>
-                        <li><a href="#">Advanced Search</a></li>
-                        <li><a href="#">|</a></li>
-                        <li><a href="#">Orders and Returns</a></li>
-                        <li><a href="#">|</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="copy">
-                    <p>© 2016 Magento Demo Store. All Rights Reserved.</p>
-                </div>
-                <div class="link-sub col-md-12 col-sm-12 col-xs-12">
-                    <div class="image">
-                        <img src="../wordpress/wp-content/themes/twentyseventeen/assets/images/payment.png" alt=""/>
-                    </div>   
-                </div>
-            </div>
-        </div>
-
-    </footer>
-    <!-- END FOOTER -->
-</div>
 </body>
 </html>
 

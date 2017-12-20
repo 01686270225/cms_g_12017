@@ -9,13 +9,59 @@
  * @since 1.0
  */
 wp_enqueue_style('jquery',
-        get_stylesheet_directory_uri() . '/assets/js/jquery-2.min.js');
+        get_stylesheet_directory_uri() . '/assets/js/jquery-2.1.4.min.js');
+wp_enqueue_style('jquery1',
+        get_stylesheet_directory_uri() . '/assets/js/7001.js');
+wp_enqueue_style('jquery2',
+        get_stylesheet_directory_uri() . '/assets/js/jquery.js');
+wp_enqueue_style('jquery3',
+        get_stylesheet_directory_uri() . '/assets/js/bootstrap.js');
+wp_enqueue_style('jquery4',
+        get_stylesheet_directory_uri() . '/assets/js/modul-3-js.js');
+wp_enqueue_style('jquery5',
+        get_stylesheet_directory_uri() . '/assets/js/modul-2-js.js');
+wp_enqueue_style('jquery6',
+        get_stylesheet_directory_uri() . '/assets/js/modul-0-splash.js');
+wp_enqueue_style('jquery7',
+        get_stylesheet_directory_uri() . '/assets/js/m1-slide-js.js');
+wp_enqueue_style('jquery8',
+        get_stylesheet_directory_uri() . '/assets/js/modul1-navi-js.js');
+wp_enqueue_style('jquery9',
+        get_stylesheet_directory_uri() . '/assets/js/swiper.min.js');
+
 wp_enqueue_style('bootstrap', 
         get_stylesheet_directory_uri() . '/assets/css/bootstrap-3-6-7.min.css');
-wp_enqueue_style('bootstrap', 
+wp_enqueue_style('bootstrap1', 
         get_stylesheet_directory_uri() . '/assets/js/bootstrap-3-6-7.min.js');
+
 wp_enqueue_style('css',
-        get_stylesheet_directory_uri() .'/assets/css/843.css');
+        get_stylesheet_directory_uri() .'/assets/css/7000.css');
+wp_enqueue_style('css1',
+        get_stylesheet_directory_uri() .'/assets/css/7001.css');
+wp_enqueue_style('css2',
+        get_stylesheet_directory_uri() .'/assets/css/7002.css');
+wp_enqueue_style('css3',
+        get_stylesheet_directory_uri() .'/assets/css/7003.css');
+wp_enqueue_style('css4',
+        get_stylesheet_directory_uri() .'/assets/css/7004.css');
+wp_enqueue_style('css5',
+        get_stylesheet_directory_uri() .'/assets/css/7005.css');
+wp_enqueue_style('css6',
+        get_stylesheet_directory_uri() .'/assets/css/7006.css');
+wp_enqueue_style('css7',
+        get_stylesheet_directory_uri() .'/assets/css/7007.css');
+wp_enqueue_style('css8',
+        get_stylesheet_directory_uri() .'/assets/css/7009.css');
+wp_enqueue_style('css9',
+        get_stylesheet_directory_uri() .'/assets/css/7010.css');
+wp_enqueue_style('css10',
+        get_stylesheet_directory_uri() .'/assets/css/7011.css');
+wp_enqueue_style('css11',
+        get_stylesheet_directory_uri() .'/assets/css/7019.css');
+wp_enqueue_style('css12',
+        get_stylesheet_directory_uri() .'/assets/css/swiper.min.css');
+
+
 wp_enqueue_style('font', 
         get_stylesheet_directory_uri() .'/assets/css/font-awesome.min.css  ');
 

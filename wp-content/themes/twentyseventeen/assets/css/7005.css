@@ -1,0 +1,115 @@
+.type-7005 a,
+.type-7005 a:hover {
+    text-decoration: none;
+}
+.type-7005 ul {
+    list-style: none;
+    padding: 0;
+}
+.type-7005 .m5 {
+    position: relative;
+    background: url(../images/waves-decoration.svg) repeat-x center top;
+    background-size: auto;
+    background-attachment: scroll;
+    overflow: hidden;
+}
+.type-7005 .m5 .m5-parallax {
+    position: absolute;
+    background-position: 50% 0%;
+    background-image: url(../images/coffee33.jpg);
+    background-color: #3b3b3b;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+}
+.type-7005 .m5 .m5-container {
+    margin: 0 auto;
+    max-width: 93%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.type-7005 .m5 .m5-container .m5-content {
+    transition: all 1s;
+    position: relative;
+    margin: 30px 0 30px 0;
+    text-align: center;
+}
+.type-7005 .m5 .m5-container .m5-content .m5-content-line-left,
+.type-7005 .m5 .m5-container .m5-content .m5-content-line-right {
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+    text-align: right;
+}
+.type-7005 .m5 .m5-container .m5-content .m5-content-line-left .m5-content-line,
+.type-7005 .m5 .m5-container .m5-content .m5-content-line-right .m5-content-line {
+    display: inline-block;
+    width: 30%;
+    border-top: 0 solid;
+    border-bottom: 1px solid;
+    color: #fff;
+    vertical-align: baseline;
+}
+.type-7005 .m5 .m5-container .m5-content .m5-content-line-right {
+    text-align: left;
+}
+.type-7005 .m5 .m5-container .m5-content .m5-content-text {
+    display: table-cell;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding-right: .7em;
+    padding-left: .7em;
+}
+.type-7005 .m5 .m5-container .m5-content .m5-content-text h2 {
+    font: normal 56px/68px Libre Baskerville;
+    color: #fff;
+}
+.type-7005 .m5 .m5-container .m5-content .m5-content-text .m5-content-text-subtitle {
+    color: #cb7152;
+    font-family: Handlee;
+    letter-spacing: 0.3em;
+    padding-top: 10px;
+}
+.type-7005 .m5 .m5-container .m5-content .m5-content-text .m5-content-text-subtitle:before,
+.type-7005 .m5 .m5-container .m5-content .m5-content-text .m5-content-text-subtitle:after {
+    display: inline-block;
+    width: auto;
+    height: 15px;
+    content: "~";
+    padding: 0px 5px;
+}
+@media (max-width: 767px) {
+    .m3-content-left,
+    .m3-content-right {
+        background-position: center !important;
+        background-size: 100% !important;
+    }
+}
+@font-face {
+    font-family: Handlee;
+    src: url(../fonts/Handlee.woff2);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Kaushan Script;
+    src: url(../fonts/Kaushan-Script.woff2);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Libre Baskerville;
+    src: url(../fonts/Libre-Baskerville.woff2);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Varela Round;
+    src: url(../fonts/Varela-Round.woff2);
+    font-weight: bold;
+}
+@font-face {
+    font-family: theme;
+    src: url(../fonts/theme-icons.ttf);
+    font-weight: bold;
+}
