@@ -35,11 +35,11 @@ $url_path = str_replace('\\', '/', $url_path);
         <script src="<?php echo $url_path ?>/js/bootstrap.js"></script>
         <script src="<?php echo $url_path ?>/js/modul-3-js.js"></script>
         <script src="<?php echo $url_path ?>/js/modul-2-js.js"></script>
-        <script src="<?php echo $url_path ?>/js/modul-5-js.js"</script>
         <script src="<?php echo $url_path ?>/js/modul-0-splash.js" ></script>
         <script src="<?php echo $url_path ?>/js/m1-slide-js.js"></script>
         <script src="<?php echo $url_path ?>/js/modul1-navi-js.js"></script>
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+
 
     </head> 
     <body>
@@ -458,7 +458,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
         </div>
-
+        <script src="js/script_swiper.js"></script>
         <div class="type-7007">
             <div class="container">
                 <div class="row type-7007-tabs-all">
